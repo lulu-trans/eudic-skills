@@ -187,11 +187,3 @@ eudic-skills/
 
 格式依据：[Agent Skills 规范](https://agentskills.io/specification)、[Skills CLI 创建与发现说明](https://github.com/vercel-labs/skills/blob/main/docs/creating-skills.md)。
 
-## 维护约定
-
-以本仓库的 `skills/<skill-name>/` 为维护源，更新时同步对应的网站副本，保持内容一致。
-
-- 修改后检查 Skill 元数据、接口示例和目录内链接，确保只安装单个 Skill 目录也能使用。
-- 同步网站时，将 `skills/eudic-openapi-skills/SKILL.md` 原样复制为网站的 `Eudic.My/Doc/SKILL.md`，并同步相关使用文档。
-
-新增或修改脚本时验证其真实行为；仅文档调整无需引入运行库、构建工具或自动同步系统。
