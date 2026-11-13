@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/eudic-icon.png" width="60" height="60" alt="欧路词典图标" />
+  <img src="docs/images/eudic-icon.svg" width="60" height="60" alt="欧路词典图标" />
 </p>
 
 <h1 align="center">欧路词典 Skills</h1>
